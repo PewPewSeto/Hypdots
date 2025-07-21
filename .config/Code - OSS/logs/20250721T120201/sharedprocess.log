@@ -1,0 +1,8 @@
+2025-07-21 12:02:02.107 [info] ComputeTargetPlatform: linux-x64
+2025-07-21 12:02:02.630 [info] ComputeTargetPlatform: linux-x64
+2025-07-21 12:02:08.172 [info] Getting Manifest... robbowen.synthwave-vscode
+2025-07-21 12:02:08.668 [info] Installing extension: robbowen.synthwave-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/seto/.vscode-oss/extensions/extensions.json","path":"/home/seto/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"}}
+2025-07-21 12:02:10.042 [info] Extension signature verification result for robbowen.synthwave-vscode: Success. Executed: true. Duration: 304ms.
+2025-07-21 12:02:10.079 [info] Extracted extension to file:///home/seto/.vscode-oss/extensions/robbowen.synthwave-vscode-0.1.20-universal: robbowen.synthwave-vscode
+2025-07-21 12:02:10.083 [info] Renamed to /home/seto/.vscode-oss/extensions/robbowen.synthwave-vscode-0.1.20-universal
+2025-07-21 12:02:10.096 [info] Extension installed successfully: robbowen.synthwave-vscode vscode-userdata:/home/seto/.vscode-oss/extensions/extensions.json

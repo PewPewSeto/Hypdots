@@ -1,0 +1,10 @@
+2025/07/20-23:56:11.574 4cf Reusing MANIFEST /home/seto/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/20-23:56:11.574 4cf Recovering log #43
+2025/07/20-23:56:11.581 4cf Reusing old log /home/seto/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000043.log 
+2025/07/20-23:56:17.375 4cf Level-0 table #48: started
+2025/07/20-23:56:17.385 4cf Level-0 table #48: 1265107 bytes OK
+2025/07/20-23:56:17.387 4cf Delete type=0 #43
+2025/07/20-23:56:22.826 4d0 Compacting 1@1 + 1@2 files
+2025/07/20-23:56:22.831 4d0 Generated table #49@1: 648 keys, 99168 bytes
+2025/07/20-23:56:22.831 4d0 Compacted 1@1 + 1@2 files => 99168 bytes
+2025/07/20-23:56:22.832 4d0 compacted to: files[ 0 0 1 0 0 0 0 ]

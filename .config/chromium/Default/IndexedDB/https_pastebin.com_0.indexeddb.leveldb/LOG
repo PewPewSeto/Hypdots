@@ -1,0 +1,6 @@
+2025/07/20-01:03:51.887 471 Creating DB /home/seto/.config/chromium/Default/IndexedDB/https_pastebin.com_0.indexeddb.leveldb since it was missing.
+2025/07/20-01:03:51.891 471 Reusing MANIFEST /home/seto/.config/chromium/Default/IndexedDB/https_pastebin.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/20-01:04:21.910 472 Level-0 table #5: started
+2025/07/20-01:04:21.911 472 Level-0 table #5: 375 bytes OK
+2025/07/20-01:04:21.913 472 Delete type=0 #3
+2025/07/20-01:04:21.913 472 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

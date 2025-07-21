@@ -1,0 +1,4 @@
+
+[Default Applications]
+x-scheme-handler/betterdiscord=discord.desktop
+x-scheme-handler/discord=vesktop.desktop

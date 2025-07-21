@@ -1,0 +1,211 @@
+// -*- mode: jsonc -*-
+{
+    "layer": "top", // Waybar at top layer
+    "output": ["DP-1", "DP-2"],
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 35, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "spacing": 6, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": [
+    	"custom/mybutton",
+    	"hyprland/window",
+        "mpris",
+        "mpd",
+    ],
+    "modules-center": [
+        "hyprland/workspaces",
+        
+    ],
+    "modules-right": [
+    	"tray",
+        "pulseaudio",
+        "network",
+        "clock",
+    ],
+	"hyprland/workspaces": {
+	    "format": "{icon}",
+		"active-only": false,
+		"sort-by-number": false,
+		"on-click": "activate",
+		"all-outputs": true,
+		"format-icons": {
+		    "1": "  ",
+		    "2": "  ",
+		    "3": "  ",
+		    "4": "  ",
+		    "5": "  ",
+ 		}
+ 	},
+ 	"hyprland/window": {
+ 		"format": "{initialTitle}",
+ 	 	"max-length": 50,
+ 		"seperate-outputs": false,
+ 		"icon": true,
+ 		"icon-size": 16
+ 	},
+ 	"mpris": {
+ 		"format": "{player_icon}",
+ 		"format-paused": "{status_icon}",
+ 		"player-icons": {
+ 			"default": "   "
+ 		},
+ 		"status-icons": {
+ 			"paused": "   "
+ 		},
+ 		"max-length": 50
+ 		// "ignored-players": ["firefox"]
+ 	},
+    
+    "mpd": {
+        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
+        "format-disconnected": "Disconnected ",
+        "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
+        "unknown-tag": "N/A",
+        "interval": 5,
+        "consume-icons": {
+            "on": " "
+        },
+        "random-icons": {
+            "off": "<span color=\"#f53c3c\"></span> ",
+            "on": " "
+        },
+        "repeat-icons": {
+            "on": " "
+        },
+        "single-icons": {
+            "on": "1 "
+        },
+        "state-icons": {
+            "paused": "",
+            "playing": ""
+        },
+        "tooltip-format": "MPD (connected)",
+        "tooltip-format-disconnected": "MPD (disconnected)"
+    },
+    
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+    "clock": {
+        // "timezone": "America/New_York",
+        "format": "{:%a %b %d  %I:%M %p}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "on-click": "alacritty -e calcurse"
+    },
+    "cpu": {
+        "format": "{usage}% ",
+        "tooltip": true,
+        "interval": 5,
+        "on-click": "missioncenter"
+    },
+    "memory": {
+        "format": "{used:0.1f}GB ",
+        "tooltip": true,
+        "interval": 5,
+        "on-click": "missioncenter"
+    },
+    "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-full": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{time} {icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "battery#bat2": {
+        "bat": "BAT2"
+    },
+    "power-profiles-daemon": {
+      "format": "{icon}",
+      "tooltip-format": "Power Profile: {profile}",
+      "tooltip": true,
+      "format-icons": {
+        "default": "",
+        "performance": "",
+        "balanced": "",
+        "power-saver": ""
+      }
+    },
+    "network": {
+    	//"format": "2",
+        "format-wifi": "({signalStrength}%) ",
+        "format-ethernet": "Wired ",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "format-disconnected": "Disconnected ⚠",
+        "on-click": "/home/seto/.config/Wofi/rofi-wifi-menu/rofi-wifi-menu.sh",
+        "on-click-right": "nm-connection-editor"
+    },
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{volume}% {icon}     {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": "{volume}%    {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "GTK_THEME=Plata-Noir pavucontrol",
+        "on-click-right": "swayosd-client --input-volume mute-toggle",
+        "on-click-middle": "swayosd-client --output-volume mute-toggle",
+        "on-scroll-up": "swayosd-client --output-volume 5",
+        "on-scroll-down": "swayosd-client --output-volume -5"
+    },
+    
+    "custom/mybutton": {
+        "format": "\uf359",
+        "tooltip": true,
+        "tooltip-format": "App Menu",
+        "on-click": "wofi --show drun"
+    },
+	"custom/powerbutton": {
+        "format": "\uf011",
+        "tooltip": true,
+        "tooltip-format": "Power Menu",
+        "on-click": "/home/zach/.config/rofi/powermenu/powermenu.sh"
+    },
+    "custom/weather": {
+        "format": "{}°",
+        "tooltip": true,
+        "interval": 3600,
+        "exec": "wttrbar --ampm --mph --fahrenheit --hide-conditions",
+        "return-type": "json",
+        "on-click": "xdg-open 'https://wsaz.com/weather'"
+    },
+    "custom/notification": {
+      "tooltip": false,
+      "format": "{} {icon}",
+      "format-icons": {
+        "notification": " 󰂚 ",
+        "none": " 󰂚 ",
+        "dnd-notification": " 󰂛 ",
+        "dnd-none": " 󰂛 ",
+        "inhibited-notification": " 󰂚 ",
+        "inhibited-none": " 󰂚 ",
+        "dnd-inhibited-notification": " 󰂛 ",
+        "dnd-inhibited-none": " 󰂛 "
+      },
+      "return-type": "json",
+      "exec-if": "which swaync-client",
+      "exec": "swaync-client -swb",
+      "on-click": "swaync-client -t -sw",
+      "on-click-right": "swaync-client -d -sw",
+      "escape": true
+    }
+}

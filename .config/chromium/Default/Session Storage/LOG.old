@@ -1,0 +1,21 @@
+2025/07/21-11:25:07.085 4 Reusing MANIFEST /home/seto/.config/chromium/Default/Session Storage/MANIFEST-000001
+2025/07/21-11:25:07.085 4 Recovering log #56
+2025/07/21-11:25:07.086 4 Reusing old log /home/seto/.config/chromium/Default/Session Storage/000056.log 
+2025/07/21-11:25:16.155 5 Level-0 table #60: started
+2025/07/21-11:25:16.159 5 Level-0 table #60: 85186 bytes OK
+2025/07/21-11:25:16.161 5 Delete type=0 #56
+2025/07/21-11:25:16.162 5 Compacting 4@0 + 1@1 files
+2025/07/21-11:25:16.168 5 Generated table #61@0: 2669 keys, 195143 bytes
+2025/07/21-11:25:16.168 5 Compacted 4@0 + 1@1 files => 195143 bytes
+2025/07/21-11:25:16.169 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/21-11:25:16.170 5 Delete type=2 #54
+2025/07/21-11:25:16.170 5 Delete type=2 #49
+2025/07/21-11:25:16.170 5 Delete type=2 #52
+2025/07/21-11:25:16.170 5 Delete type=2 #60
+2025/07/21-11:25:16.170 5 Delete type=2 #57
+2025/07/21-11:25:56.187 5 Level-0 table #63: started
+2025/07/21-11:25:56.192 5 Level-0 table #63: 313762 bytes OK
+2025/07/21-11:25:56.194 5 Delete type=0 #59
+2025/07/21-11:33:50.380 5 Level-0 table #65: started
+2025/07/21-11:33:50.384 5 Level-0 table #65: 19362 bytes OK
+2025/07/21-11:33:50.386 5 Delete type=0 #62
