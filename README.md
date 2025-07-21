@@ -1,5 +1,6 @@
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=F7077E&vCenter=true&width=435&height=30&lines=REQUIRMENTS)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=F7077E&/vCenter=true&width=435&height=30&lines=REQUIRMENTS)](https://git.io/typing-svg)
+>please remeber to install these before anything else
 Window Manager - hyprland
 Status Bar - waybar
 App Launcher - Wofi
