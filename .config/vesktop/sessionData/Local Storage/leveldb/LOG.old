@@ -1,6 +1,0 @@
-2025/07/21-11:19:41.338 3a0 Reusing MANIFEST /home/seto/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
-2025/07/21-11:19:41.351 3a0 Recovering log #16
-2025/07/21-11:19:41.351 3a0 Reusing old log /home/seto/.config/vesktop/sessionData/Local Storage/leveldb/000016.log 
-2025/07/21-11:48:57.821 3a1 Level-0 table #21: started
-2025/07/21-11:48:57.823 3a1 Level-0 table #21: 36281 bytes OK
-2025/07/21-11:48:57.824 3a1 Delete type=0 #16

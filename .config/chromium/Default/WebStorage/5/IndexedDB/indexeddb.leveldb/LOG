@@ -1,6 +1,0 @@
-2025/06/29-19:40:59.789 3a0 Creating DB /home/seto/.config/chromium/Default/WebStorage/5/IndexedDB/indexeddb.leveldb since it was missing.
-2025/06/29-19:40:59.792 3a0 Reusing MANIFEST /home/seto/.config/chromium/Default/WebStorage/5/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2025/06/29-19:41:12.587 37a Level-0 table #5: started
-2025/06/29-19:41:12.587 37a Level-0 table #5: 460 bytes OK
-2025/06/29-19:41:12.589 37a Delete type=0 #3
-2025/06/29-19:41:12.589 37a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
