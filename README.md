@@ -1,5 +1,5 @@
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=F7077E&/vCenter=true&width=435&height=30&lines=REQUIRMENTS)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=eca6c4&/vCenter=true&width=435&height=30&lines=REQUIRMENTS)](https://git.io/typing-svg)
 >please remeber to install these before anything else
 ```bash
 Window Manager - hyprland
@@ -15,7 +15,7 @@ Polkit - hyprpolkitagent or polkit-gnome
 Logout/Powermenu - wlogout
 ```
 ---
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=F7077E&vCenter=true&width=435&height=30&lines=INSTALLATION)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=eca6c4&vCenter=true&width=435&height=30&lines=INSTALLATION)](https://git.io/typing-svg)
 
 > [!CAUTION] 
 > you need package `curl` for this to work
