@@ -142,13 +142,8 @@
         "format": "\uf359",
         "tooltip": true,
         "tooltip-format": "App Menu",
-        "on-click": "wofi --show drun"
-    },
-	"custom/powerbutton": {
-        "format": "\uf011",
-        "tooltip": true,
-        "tooltip-format": "Power Menu",
-        "on-click": "/home/zach/.config/rofi/powermenu/powermenu.sh"
+        "on-click": "wofi --show drun",
+        "on-click-middle": "wlogout"
     },
 
 }
