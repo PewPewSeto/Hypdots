@@ -7,7 +7,7 @@ Status Bar - waybar
 App Launcher - Wofi
 Screenshot - grim, slurp, swappy
 Terminal - kitty
-Fonts - jetbrains mono nerd, victor-mono, Fantasque Sans Mono Nerd
+Fonts - jetbrains mono nerd,
 clipboard manager - cliphist
 Notification - swaync
 Color Pallete Generator - wallust
