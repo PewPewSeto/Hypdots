@@ -22,6 +22,6 @@ Logout/Powermenu - wlogout
 
 > to download from Master branch
 ```bash
-git clone --depth=1 https://github.com/PewPewSeto/Hypdots
+git clone --depth=1 https://github.com/PewPewSeto/Hypdots.git
 cd Hypdots
 ```
